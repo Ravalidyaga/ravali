@@ -18,6 +18,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
+
 public class ReviewJpaService implements ReviewRepository {
     @Autowired
     private ReviewJpaRepository reviewJpaRepository;
